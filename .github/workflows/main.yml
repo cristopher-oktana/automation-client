@@ -1,0 +1,13 @@
+on: [ push ]
+
+jobs:
+  First-Job:
+    runs-on: macos-latest
+    name: Github Composite Actions !!!dfdfffjsdhfg sdhfg djfhds
+
+    steps:
+      - id: triggeringId
+        uses: rogeruiz22/odoafRepo-friday27-950@master
+        with:
+          entrada1: 'rogeruiz22/odoafRepo-friday27-950'
+          entrada2: 'master'
